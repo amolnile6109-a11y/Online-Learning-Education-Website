@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quize.css">
+</head>
+
+<body>
+    <div class="quizc">
+        <h1>C lanugage Quiz</h1>
+        <div class="timer">time left:10 seconds</div>
+        <!-- Question 1 -->
+        <h2 class="question"></h2>
+        <div class="options">
+
+        </div>
+
+        <button class="next">next</button>
+    </div>
+    <div class="result">
+        <h2>your score : 4/5</h2>
+        <div class="mcq-container">
+            <div class="question">1. What will sizeof(char) return in C?</div>
+            <div class="options">
+                <button class="option">2 bytes</button>
+                <button class="option">4 bytes</button>
+                <button class="option correct">1 byte</button>
+                <button class="option">Depends on compiler</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: 1 byte</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">2. Which of the following is not a valid variable name in C?</div>
+            <div class="options">
+                <button class="option">_value</button>
+                <button class="option correct">9data</button>
+                <button class="option">data9</button>
+                <button class="option">value_</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: 9data</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">3. What is the output of printf("%d", sizeof(5.2)); ?</div>
+            <div class="options">
+                <button class="option">2</button>
+                <button class="option correct">8</button>
+                <button class="option">4</button>
+                <button class="option">Depends on compiler</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: 8</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">4. Which operator is used to get the address of a variable?</div>
+            <div class="options">
+                <button class="option correct">&</button>
+                <button class="option">*</button>
+                <button class="option">%</button>
+                <button class="option">#</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: &</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">5. Which keyword is used to define a constant in C?</div>
+            <div class="options">
+                <button class="option">constant</button>
+                <button class="option">fixed</button>
+                <button class="option correct">const</button>
+                <button class="option">final</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: const</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">6. What is the default return type of a C function if not specified?</div>
+            <div class="options">
+                <button class="option correct">int</button>
+                <button class="option">void</button>
+                <button class="option">float</button>
+                <button class="option">char</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: int</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">7. What is the output of printf("%d", 'A'); ?</div>
+            <div class="options">
+                <button class="option correct">65</button>
+                <button class="option">A</button>
+                <button class="option">Error</button>
+                <button class="option">97</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: 65</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">8. Which of the following statements is true about arrays in C?</div>
+            <div class="options">
+                <button class="option">Array size can be changed at runtime</button>
+                <button class="option correct">Array index starts from 0</button>
+                <button class="option">Arrays can store multiple data types</button>
+                <button class="option">Array elements are stored randomly</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: Array index starts from 0</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">9. What will be the output of printf("%d", 5/2); ?</div>
+            <div class="options">
+                <button class="option correct">2</button>
+                <button class="option">2.5</button>
+                <button class="option">3</button>
+                <button class="option">Error</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: 2</div>
+        </div>
+
+        <div class="mcq-container">
+            <div class="question">10. What does the following declaration mean? int (*ptr)[10];</div>
+            <div class="options">
+                <button class="option correct">ptr is a pointer to an array of 10 integers</button>
+                <button class="option">ptr is an array of 10 pointers to int</button>
+                <button class="option">ptr is a pointer to 10 integers</button>
+                <button class="option">Invalid declaration</button>
+            </div>
+            <div class="user-ans">Your answer: Not Answered</div>
+            <div class="correct-ans">Correct answer: ptr is a pointer to an array of 10 integers</div>
+        </div>
+
+        <button class="retake">retake</button>
+    </div>
+    <script src="quize.js"></script>
+</body>
+
+</html>
